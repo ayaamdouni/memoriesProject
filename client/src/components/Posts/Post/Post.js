@@ -30,8 +30,8 @@ const Post = ({post}) => {
             <Typography style={styles.title} variant='h5' gutterBottom>{post.message}</Typography>
             </CardContent>
             <CardActions style={styles.cardActions}>
-                <Button size="small" color="primary" onClick={()=>{} }> Like {post.likeCount} </Button>
-                <Button size="small" color="primary" onClick={()=>{} }> Delete </Button>
+                {/* <Button size="small" color="primary" onClick={()=>{} }> Like {post.likeCount} </Button> */}
+                {/* <Button size="small" color="primary" onClick={()=>{} }> Delete </Button> */}
             </CardActions>
             
         </Card>
